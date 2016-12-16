@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" type="text/css" href="/css/bulma.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+<% include templates/nav.ejs %>
+<section class="hero team-header">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        COEN 3463: Software Engineering
+      </h1>
+      <h2 class="subtitle">
+        Team 6
+      </h2>
+    </div>
+  </div>
+</section>
+<div class="container team-member">
+  <div class="columns">
+    <div class="column" align="center">
+      <div class="avatar">
+        <a href="./jovaniwarguez">
+          <img src="/img/jovaniwarguez.png">
+        </a>
+      </div>
+      <div class="name">
+        <p>
+          <a href="./jovaniwarguez">
+            <span class="title is-bold">Jovani Warguez</span>
+          </a>
+        </p>
+        <br/>
+        <p class="tagline">Donec molestie dapibus elementum. Nam turpis quam, aliquet in tristique vitae, euismod nec felis. Maecenas tempus mattis felis, id condimentum arcu maximus a.</p>
+      </div>
+    </div>
+    <div class="column" align="center">
+      <div class="avatar">
+        <a href="./nerylempenio">
+          <img src="/img/nerylempenio.png">
+        </a>
+      </div>
+      <div class="name">
+        <p>
+          <a href="./nerylempenio">
+            <span class="title is-bold">Neryl Empenio</span>
+          </a>
+        </p>
+        <br/>
+        <p class="tagline">Donec molestie dapibus elementum. Nam turpis quam, aliquet in tristique vitae, euismod nec felis. Maecenas tempus mattis felis, id condimentum arcu maximus a.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<% include templates/footer.ejs %>
+</body>
+</html>
