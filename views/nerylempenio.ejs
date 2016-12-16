@@ -7,7 +7,140 @@
 </head>
 <body>
 <% include templates/nav.ejs %>
-<% include templates/user.ejs %>
+<section class="section main">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-3">
+                <div class="card is-fullwidth card-profile">
+                    <div class="card-content">
+                        <a class="card-avatar">
+                            <figure class="image is-square">
+                                <img src="<%= profilepic %>" class="card-avatar-img">
+                            </figure>
+                        </a>
+
+                        <div class="card-user">
+                            <div class="card-user-name">
+                                <%= title %>
+                                <br/>
+                                <%= email %>
+                                <br/>
+                                <%= mobilenumber %>
+                            </div>
+                            <span>
+                                <a href="./jovaniwarguez">@<span><%= username %></span></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card is-fullwidth card-social">
+                    <div class="card-content">
+                        <a href="<%= facebook %>" target="_blank" class="card-avatar">
+                            Facebook
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <a href="<%= twitter %>" target="_blank" class="card-avatar">
+                            Twitter
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <a href="<%= instagram %>" target="_blank" class="card-avatar">
+                            Instagram
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <a href="<%= github %>" target="_blank" class="card-avatar">
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-6">
+                <article class="message">
+                    <div class="message-header">
+                        About Me
+                    </div>
+                    <div class="message-body">
+                        <p>
+                            I am a Computer Engineering Student in Polytechnic University
+                            Polytechnic University of the Philippines.
+                        </p><br/>
+                        <p>
+                            I am the Brainchild of Creatives Committee of CoRES 2016.
+                        </p><br/>
+                        <p>
+                            I began studying in PUP, by year 2012 and that until today
+                            continuously builds and sturggling for an impressive
+                            portfolio in graphics and creating worthwhile years for an
+                            Engineering Degree.
+                        </p><br/>
+                        <p>
+                            Driven to push Graphics and Web Designing further, and be
+                            a graduate soon.
+                        </p>
+                    </div>
+                </article>
+                <article class="message">
+                    <div class="message-header">
+                        Job Experience
+                    </div>
+                    <div class="message-body">
+                        <p>
+                            Philippine Seven Corporation<br/>
+                            (March 2016 - May 2016)<br/>
+                            - Graphics Designer<br/>
+                            - Front-End Web Developer
+                        </p><br/>
+                        <p>
+                            Spi Global - Ortigas<br/>
+                            (April 2015 - May 2015)<br/>
+                            - IT Support
+                        </p>
+                    </div>
+                </article>
+                <article class="message">
+                    <div class="message-header">
+                        Skills
+                    </div>
+                    <div class="message-body">
+                        <ul>
+                            <li>Moodle</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Adobe Photoshop</li>
+                            <li>Adobe Illustrator</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="column is-3">
+                <div class="box">
+                    <article class="message">
+                        <div class="message-header">
+                            Projects
+                        </div>
+                        <div class="message-body">
+                            <a href="http://cpecareer.com/" target="_blank">CpE Career</a>
+                            <p>
+                                CpE Career is a WordPress website. It is a responsive website that
+                                helps Computer Engineering (CpE) students from PUP Manila to a find
+                                an internship programs that suit their learning objectives and skillset.
+                                The database for internships and companies are based on internship
+                                programs of CpE students from previuos years.
+                            </p><br/><br/>
+                            <a href="http://esep.7-eleven.com.ph/" target="_blank">ESEP - 7-Eleven</a>
+                            <p>
+                                ESEP - 7-Eleven is a Moodle website that I developed when I am an Intern
+                                at Philippine Seven Corporation.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <% include templates/footer.ejs %>
 </body>
 </html>
