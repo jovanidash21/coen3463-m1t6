@@ -18,6 +18,9 @@ body
 .team-nav a
 {
 	color: #ffffff;
+	-webkit-transition: color 0.3s ease;
+	-moz-transition: color 0.3s ease;
+	-o-transition: color 0.3s ease;
 }
 .team-nav a:hover
 {
@@ -60,8 +63,8 @@ body
 }
 .team-member
 {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 .team-member .column
 {
