@@ -23,9 +23,31 @@ body
 {
 	color: #cda34f !important;
 }
-a.nav-item.is-tab:hover
+@media screen and (min-width: 769px)
 {
-	border-bottom: 2px solid #cda34f;
+	a.nav-item.is-tab:hover
+	{
+		border-bottom: 4px solid #cda34f;
+	}
+}
+@media screen and (max-width: 768px)
+{
+	.team-nav .nav-right
+	{
+		background-color: rgba(55, 55, 55, 0.9);
+	}
+	a.nav-item.is-tab:hover
+	{
+		border-bottom: 1px solid #cda34f;
+	}
+}
+.nav-toggle
+{
+	height: 100%;
+}
+.nav-toggle.is-active span
+{
+	background-color: #cda34f;
 }
 .team-header
 {
