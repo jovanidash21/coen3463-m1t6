@@ -111,3 +111,17 @@ body
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
+.card-profile .card-user
+{
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+.card-social > .card-content
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+a
+{
+	color: #cda34f;
+}
