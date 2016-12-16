@@ -6,6 +6,10 @@ body
     -webkit-text-size-adjust: 100%;
     background-color: #373737;
 }
+a
+{
+	color: #cda34f;
+}
 .team-nav
 {
 	background-color: #373737;
@@ -121,7 +125,7 @@ body
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
-a
+.message-header .title
 {
-	color: #cda34f;
+	color: #ffffff;
 }
