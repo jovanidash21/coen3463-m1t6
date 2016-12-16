@@ -10,17 +10,17 @@
 * Node.js installed
 
 ## Installation
-1. Clone or download this repository.
-2. Using a terminal or cmd, navigate to the project directory.
-3. Install node modules
+* Clone or download this repository.
+* Using a terminal or cmd, navigate to the project directory.
+* Install node modules
 ```
 npm install
 ```
-4. Run 'www' file inside the bin directory.
+* Run 'www' file inside the bin directory.
 ```
 node ./bin/www
 ```
-5. Open a browser and visit ```localhost:3000```
+* Open a browser and visit ```localhost:3000```
 
 ## Connect
 - [Wordpress](https://jovaniwarguez.wordpress.com/)
