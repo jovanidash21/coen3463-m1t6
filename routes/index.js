@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'COEN3463-m1t6' });
+  res.render('index', { title: 'JN | Module1' });
 });
 
 module.exports = router;
