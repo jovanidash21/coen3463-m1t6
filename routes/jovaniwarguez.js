@@ -5,6 +5,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
     res.render('jovaniwarguez', {
         title: 'Jovani Cadorna Warguez',
+        slideshow1: '/img/slideshow/jovaniwarguez/1.png',
+        slideshow2: '/img/slideshow/jovaniwarguez/2.png',
+        slideshow3: '/img/slideshow/jovaniwarguez/3.png',
         username: 'jovanidash21',
         profilepic: './img/jovaniwarguez.png',
         email: 'jwardash21@gmail.com',

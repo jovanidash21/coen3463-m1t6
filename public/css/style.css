@@ -14,6 +14,7 @@ a
 {
 	background-color: #373737;
 	min-height: 75px;
+	z-index: 200;
 }
 .team-nav .nav-item img
 {
@@ -30,24 +31,6 @@ a
 {
 	color: #cda34f !important;
 }
-@media screen and (min-width: 769px)
-{
-	a.nav-item.is-tab:hover
-	{
-		border-bottom: 4px solid #cda34f;
-	}
-}
-@media screen and (max-width: 768px)
-{
-	.team-nav .nav-right
-	{
-		background-color: rgba(55, 55, 55, 0.9);
-	}
-	a.nav-item.is-tab:hover
-	{
-		border-bottom: 1px solid #cda34f;
-	}
-}
 .nav-toggle
 {
 	height: 100%;
@@ -55,6 +38,87 @@ a
 .nav-toggle.is-active span
 {
 	background-color: #cda34f;
+}
+.cycle-slideshow
+{
+	width: 100%;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.cycle-slideshow img
+{
+	width: 100%;
+	height: auto;
+}
+.cycle-slideshow span.cycle-prev,
+.cycle-slideshow span.cycle-next,
+.cycle-slideshow span.cycle-pager
+{
+	cursor: pointer;
+}
+.cycle-slideshow span.cycle-prev,
+.cycle-slideshow span.cycle-next
+{
+	display: block;
+	position: absolute;
+	top: 50%;
+	padding: 0 21px;
+	color: #ffffff;
+	font-size: 45px;
+	font-weight: bold;
+	text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+	transform: translate(0, -50%);
+	-webkit-transform: translate(0, -50%);
+	-moz-ttransform: translate(0, -50%);
+	-o-transform: translate(0, -50%);
+	transition: color 0.3s ease;
+	-webkit-transition: color 0.3s ease;
+	-moz-transition: color 0.3s ease;
+	-o-transition: color 0.3s ease;
+	z-index: 150;
+}
+.cycle-slideshow span.cycle-prev:hover,
+.cycle-slideshow span.cycle-next:hover
+{
+	color: #cda34f;
+}
+.cycle-slideshow span.cycle-prev
+{
+	left: 5%;
+}
+.cycle-slideshow span.cycle-next
+{
+	right: 5%;
+}
+.cycle-slideshow span.cycle-pager
+{
+	width: 100%;
+	text-align: center;
+	z-index: 150;
+	top: 90%;
+	position: absolute;
+}
+.cycle-slideshow .cycle-pager span
+{
+	text-indent: 100%;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid rgba(100, 100, 100, 1);
+	background-color: rgba(221, 221, 221, 1);
+	margin: 0 5px;
+}
+.cycle-slideshow span.cycle-pager span:hover
+{
+	border: 1px solid #cda34f;
+}
+.cycle-slideshow span.cycle-pager .cycle-pager-active
+{
+	background-color: #cda34f;
+	border: 1px solid #cda34f;
 }
 .team-header
 {
@@ -128,4 +192,31 @@ a
 .message-header .title
 {
 	color: #ffffff;
+}
+@media screen and (min-width: 769px)
+{
+	a.nav-item.is-tab:hover
+	{
+		border-bottom: 4px solid #cda34f;
+	}
+}
+@media screen and (max-width: 768px)
+{
+	.team-nav .nav-right
+	{
+		background-color: rgba(55, 55, 55, 0.9);
+	}
+	a.nav-item.is-tab:hover
+	{
+		border-bottom: 1px solid #cda34f;
+	}
+	.cycle-slideshow span.cycle-prev,
+	.cycle-slideshow span.cycle-next
+	{
+		font-size: 30px;
+	}
+	.cycle-slideshow span.cycle-pager
+	{
+		display: none;
+	}
 }

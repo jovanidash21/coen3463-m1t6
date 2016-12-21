@@ -5,6 +5,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
     res.render('nerylempenio', {
         title: 'Neryl Anne Barbosa Empenio',
+        slideshow1: '/img/slideshow/nerylempenio/1.png',
+        slideshow2: '/img/slideshow/nerylempenio/2.png',
+        slideshow3: '/img/slideshow/nerylempenio/3.png',
         username: 'nerylempenio',
         email: 'neryempenio@ymail.com',
         mobilenumber: '09352460370',
