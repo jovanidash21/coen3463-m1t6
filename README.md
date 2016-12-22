@@ -22,6 +22,9 @@ node ./bin/www
 ```
 * Open a browser and visit ```localhost:3000```
 
+## Credit
+- [Slider](http://jquery.malsup.com/cycle2/)
+
 ## Connect
 - [Wordpress](https://jovaniwarguez.wordpress.com/)
 - [Facebook](https://facebook.com/jovani.cadornawarguez)
