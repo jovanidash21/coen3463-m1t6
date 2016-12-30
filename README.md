@@ -22,7 +22,7 @@ node ./bin/www
 ```
 * Open a browser and visit ```localhost:3000```
 
-## Credit
+## Credits
 - [CSS Framework](http://bulma.io/)
 - [Slider](http://jquery.malsup.com/cycle2/)
 
