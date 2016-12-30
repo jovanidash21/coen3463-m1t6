@@ -23,6 +23,7 @@ node ./bin/www
 * Open a browser and visit ```localhost:3000```
 
 ## Credit
+- [CSS Framework](http://bulma.io/)
 - [Slider](http://jquery.malsup.com/cycle2/)
 
 ## Connect
