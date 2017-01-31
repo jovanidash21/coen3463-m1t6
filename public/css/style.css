@@ -47,6 +47,10 @@ a
 	margin: 0 auto;
 	overflow: hidden;
 }
+.cycle-slideshow a
+{
+	width: 100%;
+}
 .cycle-slideshow img
 {
 	width: 100%;
