@@ -21,6 +21,7 @@ router.get('/', function(req, res, next) {
         instagram: 'https://instagram.com/jovanidash21',
         linkedin: 'https://www.linkedin.com/in/jovani-warguez-827a8a11b',
         github: 'https://github.com/jovanidash21/',
+        codepen: 'http://codepen.io/jovanidash21/',
         wordpress: 'https://jovaniwarguez.wordpress.com/'
     });
 });
