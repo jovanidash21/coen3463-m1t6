@@ -17,5 +17,6 @@
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "cross-env": "^5.0.4",
+    "nodemon": "^1.11.0"
   }
 }
