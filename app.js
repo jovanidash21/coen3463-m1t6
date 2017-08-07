@@ -11,6 +11,18 @@ var nerylempenio = require('./routes/nerylempenio');
 
 var app = express();
 
+// browserSync setup
+if ( process.env.NODE_ENV != 'production' ) {
+  var browserSync = require('browser-sync');
+  browserSync({
+    files: ['./**/*'],
+    online: false,
+    port: 9000,
+    proxy: 'localhost:3000',
+    ui: false
+  });
+}
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
