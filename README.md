@@ -17,11 +17,20 @@ cd team-jn
 ```
 npm install
 ```
-* Run 'www' file inside the bin directory.
+* Start the server.
 ```
-node ./bin/www
+npm start
 ```
 * Open a browser and visit ```localhost:3000```.
+* Run in dev mode.
+```
+npm run dev
+```
+
+## NPM Scripts
+* ```npm start``` - start the server.
+* ```npm run build``` - run the project in production mode.
+* ```npm run dev - run the project in dev mode.
 
 ## Credits
 - [CSS Framework](http://bulma.io/)
