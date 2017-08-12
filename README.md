@@ -7,11 +7,11 @@
 ## Installation
 * Clone or download this repository.
 ```
-git clone https://github.com/jovanidash21/coen3463-m1t6.git
+git clone https://github.com/jovanidash21/team-jn.git
 ```
 * Navigate to the project directory.
 ```
-cd coen3463-m1t6
+cd team-jn
 ```
 * Install node modules.
 ```
