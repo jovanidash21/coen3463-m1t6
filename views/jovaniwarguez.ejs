@@ -1,196 +1,196 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><%= title %></title>
-    <link rel="stylesheet" type="text/css" href="/css/bulma.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <title><%= title %></title>
+  <link rel="stylesheet" type="text/css" href="/css/bulma.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
 <% include templates/nav.ejs %>
 <% include templates/slideshow.ejs %>
 <section class="section main">
-    <div class="container">
-        <div class="columns">
-            <div class="column is-3">
-                <div class="card is-fullwidth card-profile">
-                    <div class="card-content">
-                        <a class="card-avatar">
-                            <figure class="image is-square">
-                                <img src="<%= profilepic %>" class="card-avatar-img">
-                            </figure>
-                        </a>
-                        <div class="card-user">
-                            <div class="card-user-name">
-                                <p class="title is-5">
-                                    <%= title %>
-                                </p>
-                                <span>
-                                    <p class="title is-5">
-                                        <a href="./jovaniwarguez">@<span><%= username %></span></a>
-                                    </p>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card is-fullwidth card-social">
-                    <div class="card-content">
-                        Email: <%= email %>
-                    </div>
-                    <div class="card-content">
-                        Contact Number: <%= mobilenumber %>
-                    </div>
-                    <div class="card-content">
-                        Facebook:
-                        <a href="<%= facebook %>" target="_blank" class="card-avatar">
-                            jovani.cadornawarguez
-                        </a>
-                    </div>
-                    <div class="card-content">
-                        Twitter:
-                        <a href="<%= twitter %>" target="_blank" class="card-avatar">
-                            @jovanidash21
-                        </a>
-                    </div>
-                    <div class="card-content">
-                        Instagram:
-                        <a href="<%= instagram %>" target="_blank" class="card-avatar">
-                            @jovanidash21
-                        </a>
-                    </div>
-                    <div class="card-content">
-                        LinkedIn:
-                        <a href="<%= linkedin %>" target="_blank" class="card-avatar">
-                            jovani-warguez-827a8a11b
-                        </a>
-                    </div>
-                    <div class="card-content">
-                        GitHub:
-                        <a href="<%= github %>" target="_blank" class="card-avatar">
-                            @jovanidash21
-                        </a>
-                    </div>
-                    <div class="card-content">
-                        CodePen:
-                        <a href="<%= codepen %>" target="_blank" class="card-avatar">
-                            @jovanidash21
-                        </a>
-                    </div>
-                    <div class="card-content">
-                        WordPress:
-                        <a href="<%= wordpress %>" target="_blank" class="card-avatar">
-                            jovaniwarguez
-                        </a>
-                    </div>
-                </div>
+  <div class="container">
+    <div class="columns">
+      <div class="column is-3">
+        <div class="card is-fullwidth card-profile">
+          <div class="card-content">
+            <a class="card-avatar">
+              <figure class="image is-square">
+                <img src="<%= profilepic %>" class="card-avatar-img">
+              </figure>
+            </a>
+            <div class="card-user">
+              <div class="card-user-name">
+                <p class="title is-5">
+                  <%= title %>
+                </p>
+                <span>
+                  <p class="title is-5">
+                    <a href="./jovaniwarguez">@<span><%= username %></span></a>
+                  </p>
+                </span>
+              </div>
             </div>
-            <div class="column is-6">
-                <article class="message">
-                    <div class="message-header">
-                        <p class="title is-5">
-                            About Me
-                        </p>
-                    </div>
-                    <div class="message-body">
-                        <p>
-                            I am a Computer Engineering Student in Polytechnic University
-                            Polytechnic University of the Philippines and a DOST scholar
-                            as well.
-                        </p><br/>
-                        <p>
-                            I am seeing myself a successful Web Developer, creating and
-                            developing Websites and Web Applications.
-                        </p><br/>
-                        <p>
-                            Pushing myself further for an Engineering Degree and digging
-                            the good side of a student's life for the past years are how I
-                            manage to abide
-                        </p><br/>
-                        <p>
-                            Until this day, working hard and fulfilling my passion in
-                            creating and developing Websites and Web Applications is
-                            what drives me to capture that "Senior Web Developer" job title sooner.
-                        </p>
-                    </div>
-                </article>
-                <article class="message">
-                    <div class="message-header">
-                        <p class="title is-5">
-                            Job Experience
-                        </p>
-                    </div>
-                    <div class="message-body">
-                        <p>
-                            Online Philippines Corporation<br/>
-                            (April 2016 - June 2016)<br/>
-                            - WordPress Web Developer
-                        </p><br/>
-                        <p>
-                            Informatics - Megamall<br/>
-                            (April 2015 - May 2015)<br/>
-                            - IT Support
-                        </p>
-                    </div>
-                </article>
-                <article class="message">
-                    <div class="message-header">
-                        <p class="title is-5">
-                            Skills
-                        </p>
-                    </div>
-                    <div class="message-body">
-                        <ul>
-                            <li>WordPress</li>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>JavaScript</li>
-                            <li>MySQL</li>
-                            <li>PHP</li>
-                            <li>Python</li>
-                            <li>Visual Basic</li>
-                        </ul>
-                    </div>
-                </article>
-            </div>
-            <div class="column is-3">
-                <div class="box">
-                    <article class="message">
-                        <div class="message-header">
-                            <p class="title is-5">
-                                Projects
-                            </p>
-                        </div>
-                        <div class="message-body">
-                            <p class="title is-5">
-                                <a href="http://cpecareer.com/" target="_blank">CpE Career</a>
-                            </p>
-                            <p>
-                                CpE Career is a WordPress website. It is a responsive website that
-                                helps Computer Engineering (CpE) students from PUP Manila to a find
-                                an internship programs that suit their learning objectives and skillset.
-                                The database for internships and companies are based on internship
-                                programs of CpE students from previuos years.
-                            </p><br/>
-                            <p class="title is-5">
-                                <a href="http://eyeberrypi.cpecareer.com/" target="_blank">Eye Berry Pi</a>
-                            </p>
-                            <p>
-                                Eye Berry Pi is a WordPress website. It is a responsive one-page
-                                website that advertise a Thesis about a Neural Network Face Recognition.
-                            </p><br/>
-                            <p class="title is-5">
-                                <a href="http://www.atlasfertilizer.com/" target="_blank">Atlas Fertilizer</a>
-                            </p>
-                            <p>
-                                Atlas Fertilizer is a WordPress website that I developed when I am an Intern
-                                at Online Philippines.
-                            </p>
-                        </div>
-                    </article>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="card is-fullwidth card-social">
+          <div class="card-content">
+            Email: <%= email %>
+          </div>
+          <div class="card-content">
+            Contact Number: <%= mobilenumber %>
+          </div>
+          <div class="card-content">
+            Facebook:
+            <a href="<%= facebook %>" target="_blank" class="card-avatar">
+              jovani.cadornawarguez
+            </a>
+          </div>
+          <div class="card-content">
+            Twitter:
+            <a href="<%= twitter %>" target="_blank" class="card-avatar">
+              @jovanidash21
+            </a>
+          </div>
+          <div class="card-content">
+            Instagram:
+            <a href="<%= instagram %>" target="_blank" class="card-avatar">
+              @jovanidash21
+            </a>
+          </div>
+          <div class="card-content">
+            LinkedIn:
+            <a href="<%= linkedin %>" target="_blank" class="card-avatar">
+              jovani-warguez-827a8a11b
+            </a>
+          </div>
+          <div class="card-content">
+            GitHub:
+            <a href="<%= github %>" target="_blank" class="card-avatar">
+              @jovanidash21
+            </a>
+          </div>
+          <div class="card-content">
+            CodePen:
+            <a href="<%= codepen %>" target="_blank" class="card-avatar">
+              @jovanidash21
+            </a>
+          </div>
+          <div class="card-content">
+            WordPress:
+            <a href="<%= wordpress %>" target="_blank" class="card-avatar">
+              jovaniwarguez
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="column is-6">
+        <article class="message">
+          <div class="message-header">
+            <p class="title is-5">
+              About Me
+            </p>
+          </div>
+          <div class="message-body">
+            <p>
+              I am a Computer Engineering Student in Polytechnic University
+              Polytechnic University of the Philippines and a DOST scholar
+              as well.
+            </p><br/>
+            <p>
+              I am seeing myself a successful Web Developer, creating and
+              developing Websites and Web Applications.
+            </p><br/>
+            <p>
+              Pushing myself further for an Engineering Degree and digging
+              the good side of a student's life for the past years are how I
+              manage to abide
+            </p><br/>
+            <p>
+              Until this day, working hard and fulfilling my passion in
+              creating and developing Websites and Web Applications is
+              what drives me to capture that "Senior Web Developer" job title sooner.
+            </p>
+          </div>
+        </article>
+        <article class="message">
+          <div class="message-header">
+            <p class="title is-5">
+              Job Experience
+            </p>
+          </div>
+          <div class="message-body">
+            <p>
+              Online Philippines Corporation<br/>
+              (April 2016 - June 2016)<br/>
+              - WordPress Web Developer
+            </p><br/>
+            <p>
+              Informatics - Megamall<br/>
+              (April 2015 - May 2015)<br/>
+              - IT Support
+            </p>
+          </div>
+        </article>
+        <article class="message">
+          <div class="message-header">
+            <p class="title is-5">
+              Skills
+            </p>
+          </div>
+            <div class="message-body">
+              <ul>
+                <li>WordPress</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>MySQL</li>
+                <li>PHP</li>
+                <li>Python</li>
+                <li>Visual Basic</li>
+              </ul>
+            </div>
+        </article>
     </div>
+    <div class="column is-3">
+      <div class="box">
+        <article class="message">
+          <div class="message-header">
+            <p class="title is-5">
+              Projects
+            </p>
+          </div>
+          <div class="message-body">
+              <p class="title is-5">
+                <a href="http://cpecareer.com/" target="_blank">CpE Career</a>
+              </p>
+              <p>
+                CpE Career is a WordPress website. It is a responsive website that
+                helps Computer Engineering (CpE) students from PUP Manila to a find
+                an internship programs that suit their learning objectives and skillset.
+                The database for internships and companies are based on internship
+                programs of CpE students from previuos years.
+              </p><br/>
+              <p class="title is-5">
+                <a href="http://eyeberrypi.cpecareer.com/" target="_blank">Eye Berry Pi</a>
+              </p>
+              <p>
+                Eye Berry Pi is a WordPress website. It is a responsive one-page
+                website that advertise a Thesis about a Neural Network Face Recognition.
+              </p><br/>
+              <p class="title is-5">
+                <a href="http://www.atlasfertilizer.com/" target="_blank">Atlas Fertilizer</a>
+              </p>
+              <p>
+                Atlas Fertilizer is a WordPress website that I developed when I am an Intern
+                at Online Philippines.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 <% include templates/footer.ejs %>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
