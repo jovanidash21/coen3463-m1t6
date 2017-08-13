@@ -30,7 +30,7 @@ npm run dev
 ## NPM Scripts
 * ```npm start``` - start the server.
 * ```npm run build``` - run the project in production mode.
-* ```npm run dev - run the project in dev mode.
+* ```npm run dev``` - run the project in dev mode.
 
 ## Credits
 - [CSS Framework](http://bulma.io/)
