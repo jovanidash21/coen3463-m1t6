@@ -17,9 +17,9 @@ cd team-jn
 ```
 npm install
 ```
-* Start the server.
+* Run the project.
 ```
-npm start
+npm run build
 ```
 * Open a browser and visit ```localhost:3000```.
 * Run in dev mode.
