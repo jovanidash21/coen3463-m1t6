@@ -38,3 +38,6 @@ npm run dev
 
 ## Website
 [Live Demo](https://team-jn-jovanidash21.herokuapp.com/)
+
+## License
+Licensed under [MIT](https://opensource.org/licenses/mit-license.php).
